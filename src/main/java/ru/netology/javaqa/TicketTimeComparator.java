@@ -12,7 +12,6 @@ public class TicketTimeComparator implements Comparator<Ticket> {
         int flightTime1 = avia.calculateFlightTime(o1);
         int flightTime2 = avia.calculateFlightTime(o2);
 
-
         if (flightTime1 < flightTime2) {
             return -1;
         } else if (flightTime1 > flightTime2) {
